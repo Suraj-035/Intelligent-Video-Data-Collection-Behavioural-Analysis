@@ -1,0 +1,19 @@
+# Virtual Environment
+behav_env/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (generated / collected)
+data/raw_videos/
+data/processed_videos/
+
+# Logs
+*.log
