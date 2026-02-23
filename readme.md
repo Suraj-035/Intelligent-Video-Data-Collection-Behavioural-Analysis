@@ -53,15 +53,15 @@ pipeline/
 └── README.txt
 ```
 
-5. System Requirements
+4. System Requirements
 
-Operating System
-- Windows 10 / 11 (tested)
-- Linux / macOS should also work with minor path changes
+  Operating System
+  - Windows 10 / 11 (tested)
+  - Linux / macOS should also work with minor path changes
 
-Python
-- Python 3.9 or 3.10 (recommended)
-- Python 3.11+ not recommended due to ML library compatibility
+  Python
+  - Python 3.9 or 3.10 (recommended)
+  - Python 3.11+ not recommended due to ML library compatibility
 
 5. Dependency Installation
 
@@ -70,7 +70,6 @@ Step 1: Create Virtual Environment
 
 Activate:
 Windows
-
 ``` behav_env\Scripts\activate```
 
 Linux / macOS
@@ -121,18 +120,18 @@ What Happens Automatically
 Console output will display processing progress and generated descriptions.
 
 8. Output Files
-8.1 Video Repository
-- `data/raw_videos/` → downloaded video clips
-- `data/processed_videos/` → frames and audio per video
-
-8.2 CSV Tracking File (Mandatory)
-- `data/metadata.csv`
-
-Sample row:
-```
-Video ID,Video method,Language,Gender,Age Group,Region,Description
-LuZV9kkzscg,scraped,Hindi/English,Man,26-35,Unknown,"The video likely shows a 26–35 man standing, speaking calmly, appearing happy, wearing casual or traditional attire and spectacles."
-```
+  8.1 Video Repository
+  - `data/raw_videos/` → downloaded video clips
+  - `data/processed_videos/` → frames and audio per video
+  
+  8.2 CSV Tracking File (Mandatory)
+  - `data/metadata.csv`
+  
+  Sample row:
+  ```
+  Video ID,Video method,Language,Gender,Age Group,Region,Description
+  LuZV9kkzscg,scraped,Hindi/English,Man,26-35,Unknown,"The video likely shows a 26–35 man standing, speaking calmly, appearing happy, wearing casual or traditional attire and spectacles."
+  ```
 
 9. Ethical & Responsible AI Practices
 - Only publicly available YouTube videos are used
