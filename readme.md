@@ -25,6 +25,7 @@ The pipeline follows responsible AI practices and does not perform identity reco
 - CSV-based tracking and analysis (mandatory requirement)
 
 3. Project Structure
+``` text
 pipeline/
 │
 ├── main.py
@@ -50,9 +51,9 @@ pipeline/
 │
 ├── requirements.txt
 └── README.txt
+```
 
-
-4. System Requirements
+5. System Requirements
 
 Operating System
 - Windows 10 / 11 (tested)
@@ -102,8 +103,8 @@ https://www.gyan.dev/ffmpeg/builds/
 - Runs AI-based visual and audio analysis
 - Infers behaviour using fusion logic
 - Generates a natural language description
-- Appends results to metadata.csv
-Filtering based on age, gender, emotion, etc. is done after analysis, not at search time.
+- Appends results to `metadata.csv`
+> Note: Filtering based on age, gender, emotion, etc. is done after analysis, not at search time.
 
 7. Execution Instructions (IMPORTANT)
 Step 1: Ensure Environment Is Active
@@ -116,16 +117,16 @@ What Happens Automatically
 - Videos are searched and downloaded
 - AI analysis is performed
 - Descriptions are generated
-- data/metadata.csv is updated row-by-row
+- `data/metadata.csv` is updated row-by-row
 Console output will display processing progress and generated descriptions.
 
 8. Output Files
 8.1 Video Repository
-- data/raw_videos/ → downloaded video clips
-- data/processed_videos/ → frames and audio per video
+- `data/raw_videos/` → downloaded video clips
+- `data/processed_videos/` → frames and audio per video
 
 8.2 CSV Tracking File (Mandatory)
-- data/metadata.csv
+- `data/metadata.csv`
 
 Sample row:
 ```
