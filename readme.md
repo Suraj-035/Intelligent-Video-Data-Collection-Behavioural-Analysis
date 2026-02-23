@@ -152,7 +152,7 @@ Console output will display processing progress and generated descriptions.
 - Query-based filtering interface
 - Dashboard visualization
 
-12. How to Verify Correct Execution (For Judges)
+12. How to Verify Correct Execution
 
 After running main.py:
 - Check console output for generated descriptions
